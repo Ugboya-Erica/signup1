@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    flex-shrink: 0;
+    background: #F7FDFC;
+    display: flex;
+    justify-content: center;
+    }
+
+.sign-up{
+    width: 375px;
+    height: 1294px;
+    padding-left: 20px;
+    float: right;
+    margin-left: 40px;
+    display: flex;
+    justify-self: center; 
+    
+}
+
+.ios_bar{
+    display: inline-flex;
+    padding: 14px 14.5px 12px 20px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 219.5px;
+    background: rgba(249, 250, 251, 0.00);
+    margin-left: 20px;
+
+    }
+
+.ios_bar #time{
+    color: var(--Text-Headings, #011C34);
+    text-align: center;
+    font-family: Upgrade;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 112.5% */
+    letter-spacing: -0.165px;
+}
+.ios_bar img{
+    float: right;
+    width: 67px;
+    height: 11.5px;
+}
+
+.logo{
+    width: 38.667px;
+    height: 40px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.10));
+    padding: 25px;
+
+}
+
+.logo h1{
+    color: var(--CL-Black, #000B0A);
+    font-family: Brown;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    width: 327px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.logo p{
+    color: var(--CL-Grey, #737373);
+    font-family: Brown;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; /* 156.25% */
+    display: flex;
+    width: 327px;
+}
+
+form{
+    width: 327px;
+    height: 950px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    margin-top: 210px;
+    margin-bottom: 150px;
+    padding-left: 16px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    margin-left: 25px;
+}
+
+label {
+    width: 197px;
+    color: var(--Text-Headings, #011C34);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    width: 295px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+input{
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    border: 3px solid rgba(46, 194, 179, 0.06);
+    color: #000B0A;
+    width: 227px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    margin-left: auto;
+}
+
+::placeholder {
+    padding-left: 16px;
+}
+
+select {
+    width: 227px;;
+    padding: 16px 20px;
+    border: 3px solid rgba(46, 194, 179, 0.06);
+    border-radius: 4px;
+    color: var(--CL-Grey, #737373);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    margin-left: auto;
+  }
+#gndr{
+    color: var(--CL-Grey, #737373);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200px; /* 142.857% */
+    letter-spacing: 0.2px;
+    width: 227px;
+}
+
+#dob{
+    color: var(--CL-Grey, #737373);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    width: 227px;
+    background-image: url('images/calendar.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
+
+}
+
+#acl{
+    color: var(--CL-Grey, #737373);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200px; /* 142.857% */
+    letter-spacing: 0.2px;
+    width: 227px;
+}
+
+#pass{
+    background-image: url('images/show.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
+}
+
+button{
+    width: 295px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color:#2EC4B6;
+    border: 1px solid #2EC4B6;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    fill: var(--CL-Green, #2EC4B6);
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
+}
+
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button:active {
+    background-color: #0000001a;
+}
+
+#tail{
+    color: #000;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 178.571% */
+    margin-top: 24px;
+    margin-bottom: 6px;
+}
+
+#tail a{
+    color: var(--CL-Green, #2EC4B6);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration-line: underline;
+}
+
+#tail a:hover:active{
+    background-color: #0000001a;
+}

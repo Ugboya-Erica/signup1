@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sign_up">
+        <div class="ios_bar">
+            <div class="action"><p>9:41</p></div>
+            <img src="images/Container.svg" alt="">
+        </div>
+
+        <div class="logo">
+            <img src="images/logo_s.svg" alt="">
+            <h1>For Individuals</h1>
+            <p>Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+        </div>
+
+        <div class="form">
+            <form action="mailto: ivieerica31@gmail.com">
+                <label for="fn">First Name</label><br><br>
+                <input type="text" name="fn" id="fn" placeholder="Tolu" required/><br><br>
+                <label for="ln">Last Name</label><br><br>
+                <input type="text" name="ln" id="ln" placeholder="" required/><br><br>
+                <label for="gndr">Gender</label><br><br>
+                <select name="gndr" id="gndr" placeholder="" required>
+                    <option value="select" selected disabled>Select here</option>
+                    <option value="fm">Female</option>
+                    <option value="ml">Male</option>
+                </select><br><br><br>
+                <label for="dob">Date of Birth</label><br><br>
+                <input type="text" id="dob" onfocus="(this.type='date')"  placeholder="Select here" required><br><br>
+                <label for="wgt">Weight (KG)</label><br><br>
+                <input type="number" name="wgt" id="wgt" placeholder="Enter Weight" required><br><br>
+                <label for="hgt">Height (CM)</label><br><br>
+                <input type="number" name="hgt" id="hgt" placeholder="Enter height here.." required><br><br>
+                <label for="acl">Activity Level</label><br><br>
+                <select name="acl" id="acl" required>
+                    <option value="select" disabled selected>Select here</option>
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select><br><br>
+                <label for="pass">Password</label><br><br>
+                <input type="password" name="pass" id="pass" class="password" minlength="8" required><br><br>
+                <button type="button" value="Submit"><a href="mailto: ivieerica31@gmail.com">Register</a></button><br><br>
+                <p id="tail">By clicking Register, you agree to our <a href="https://policies.google.com/?hl=en-US">Terms of Use</a> and our <a href="https://policies.google.com/?hl=en-US">Privacy Policy</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
